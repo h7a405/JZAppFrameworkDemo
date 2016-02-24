@@ -28,7 +28,7 @@ extension NSString {
 //MARK: NSDate
 extension NSDate {
     //获取当前时间的时间戳
-    var currentTimeStamp: Double {
+    var timeStamp: Double {
         get {
             return Double(NSDate().timeIntervalSince1970)
         }
@@ -80,6 +80,19 @@ extension NSDate {
                 }
             }
         }
+    }
+    ///获取当前时间的(年份, 月份, 日期, 小时, 分钟, 秒数)
+    var dateTuple : (Int, Int, Int, Int, Int, Int) {
+        let dateComponents = NSDateComponents.dateComponentsWithCurrentCalendarAndDate(self)
+        return (dateComponents.year, dateComponents.month, dateComponents.day, dateComponents.hour, dateComponents.month, dateComponents.second)
+    }
+    
+}
+//MARK: NSDateComponent
+extension NSDateComponents {
+    class func dateComponentsWithCurrentCalendarAndDate(date : NSDate) -> NSDateComponents {
+        let calendar = NSCalendar.currentCalendar()
+        return calendar.components([.Year, .Month, .Day, .Hour, .Minute, .Second], fromDate: date)
     }
 }
 //MARK: NSDateFormatter

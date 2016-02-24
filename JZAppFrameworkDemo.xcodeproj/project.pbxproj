@@ -7,17 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A11443331C5F280800B75FB8 /* TestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11443321C5F280800B75FB8 /* TestUtil.swift */; };
 		A1F7B6141C488D3E00B9D505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6131C488D3E00B9D505 /* AppDelegate.swift */; };
 		A1F7B6161C488D3E00B9D505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6151C488D3E00B9D505 /* ViewController.swift */; };
 		A1F7B6191C488D3E00B9D505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F7B6171C488D3E00B9D505 /* Main.storyboard */; };
 		A1F7B61B1C488D3E00B9D505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F7B61A1C488D3E00B9D505 /* Assets.xcassets */; };
 		A1F7B61E1C488D3E00B9D505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F7B61C1C488D3E00B9D505 /* LaunchScreen.storyboard */; };
-		A1F7B6431C488D9100B9D505 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6421C488D9100B9D505 /* main.m */; };
-		A1F7B6461C488D9100B9D505 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6451C488D9100B9D505 /* AppDelegate.m */; };
-		A1F7B6491C488D9100B9D505 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6481C488D9100B9D505 /* ViewController.m */; };
-		A1F7B64C1C488D9100B9D505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F7B64A1C488D9100B9D505 /* Main.storyboard */; };
-		A1F7B64E1C488D9100B9D505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F7B64D1C488D9100B9D505 /* Assets.xcassets */; };
-		A1F7B6511C488D9100B9D505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F7B64F1C488D9100B9D505 /* LaunchScreen.storyboard */; };
 		A1F7B6EE1C4C861400B9D505 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6BC1C4C861400B9D505 /* Constants.swift */; };
 		A1F7B6EF1C4C861400B9D505 /* Enumerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6BF1C4C861400B9D505 /* Enumerate.swift */; };
 		A1F7B6F11C4C861400B9D505 /* CoreAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6C31C4C861400B9D505 /* CoreAnimationExtension.swift */; };
@@ -29,13 +24,11 @@
 		A1F7B6F71C4C861400B9D505 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1F7B6CA1C4C861400B9D505 /* Localization.strings */; };
 		A1F7B6F81C4C861400B9D505 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6CC1C4C861400B9D505 /* Localization.swift */; };
 		A1F7B6F91C4C861400B9D505 /* SystemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6D51C4C861400B9D505 /* SystemHelper.swift */; };
-		A1F7B6FA1C4C861400B9D505 /* DateTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6E01C4C861400B9D505 /* DateTool.swift */; };
+		A1F7B6FA1C4C861400B9D505 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6E01C4C861400B9D505 /* DateUtil.swift */; };
 		A1F7B6FB1C4C861400B9D505 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6E21C4C861400B9D505 /* Log.swift */; };
-		A1F7B6FC1C4C861400B9D505 /* MathTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6E41C4C861400B9D505 /* MathTool.swift */; };
-		A1F7B6FD1C4C861400B9D505 /* ProjectTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6E71C4C861400B9D505 /* ProjectTool.swift */; };
-		A1F7B6FE1C4C861400B9D505 /* StringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6E91C4C861400B9D505 /* StringTool.swift */; };
-		A1F7B6FF1C4C861400B9D505 /* SystemTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6EB1C4C861400B9D505 /* SystemTool.swift */; };
-		A1F7B7001C4C861400B9D505 /* ViewTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6ED1C4C861400B9D505 /* ViewTool.swift */; };
+		A1F7B6FC1C4C861400B9D505 /* MathUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6E41C4C861400B9D505 /* MathUtil.swift */; };
+		A1F7B6FD1C4C861400B9D505 /* ProjectUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6E71C4C861400B9D505 /* ProjectUtil.swift */; };
+		A1F7B6FF1C4C861400B9D505 /* SystemUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6EB1C4C861400B9D505 /* SystemUtil.swift */; };
 		A1F7B7031C4C86D400B9D505 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B7021C4C86D400B9D505 /* Protocol.swift */; };
 		A1F7B7051C4C878900B9D505 /* NetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B7041C4C878900B9D505 /* NetworkUtil.swift */; };
 		A1F7B7071C4C970700B9D505 /* LogEnumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B7061C4C970700B9D505 /* LogEnumeration.swift */; };
@@ -45,6 +38,7 @@
 /* Begin PBXFileReference section */
 		99E950E967954EE3B24FBE71 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9A01A83138C80F0FA50D0E95 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A11443321C5F280800B75FB8 /* TestUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtil.swift; sourceTree = "<group>"; };
 		A1F7B6101C488D3E00B9D505 /* JZAppFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZAppFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F7B6131C488D3E00B9D505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1F7B6151C488D3E00B9D505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,15 +48,6 @@
 		A1F7B61F1C488D3E00B9D505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1F7B6291C488D5600B9D505 /* JZAppSwiftFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZAppSwiftFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F7B63F1C488D9100B9D505 /* JZAppOCFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZAppOCFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1F7B6421C488D9100B9D505 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1F7B6441C488D9100B9D505 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A1F7B6451C488D9100B9D505 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A1F7B6471C488D9100B9D505 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A1F7B6481C488D9100B9D505 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A1F7B64B1C488D9100B9D505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1F7B64D1C488D9100B9D505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1F7B6501C488D9100B9D505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A1F7B6521C488D9100B9D505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1F7B6BC1C4C861400B9D505 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A1F7B6BF1C4C861400B9D505 /* Enumerate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumerate.swift; sourceTree = "<group>"; };
 		A1F7B6C31C4C861400B9D505 /* CoreAnimationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreAnimationExtension.swift; sourceTree = "<group>"; };
@@ -75,15 +60,13 @@
 		A1F7B6CC1C4C861400B9D505 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		A1F7B6CD1C4C861400B9D505 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localization.strings"; sourceTree = "<group>"; };
 		A1F7B6CE1C4C861400B9D505 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localization.strings"; sourceTree = "<group>"; };
-		A1F7B6D01C4C861400B9D505 /* JZAppFrameworkDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JZAppFrameworkDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A1F7B6D01C4C861400B9D505 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		A1F7B6D51C4C861400B9D505 /* SystemHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemHelper.swift; sourceTree = "<group>"; };
-		A1F7B6E01C4C861400B9D505 /* DateTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTool.swift; sourceTree = "<group>"; };
+		A1F7B6E01C4C861400B9D505 /* DateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
 		A1F7B6E21C4C861400B9D505 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
-		A1F7B6E41C4C861400B9D505 /* MathTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathTool.swift; sourceTree = "<group>"; };
-		A1F7B6E71C4C861400B9D505 /* ProjectTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTool.swift; sourceTree = "<group>"; };
-		A1F7B6E91C4C861400B9D505 /* StringTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTool.swift; sourceTree = "<group>"; };
-		A1F7B6EB1C4C861400B9D505 /* SystemTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemTool.swift; sourceTree = "<group>"; };
-		A1F7B6ED1C4C861400B9D505 /* ViewTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTool.swift; sourceTree = "<group>"; };
+		A1F7B6E41C4C861400B9D505 /* MathUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathUtil.swift; sourceTree = "<group>"; };
+		A1F7B6E71C4C861400B9D505 /* ProjectUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectUtil.swift; sourceTree = "<group>"; };
+		A1F7B6EB1C4C861400B9D505 /* SystemUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemUtil.swift; sourceTree = "<group>"; };
 		A1F7B7021C4C86D400B9D505 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		A1F7B7041C4C878900B9D505 /* NetworkUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtil.swift; sourceTree = "<group>"; };
 		A1F7B7061C4C970700B9D505 /* LogEnumeration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEnumeration.swift; sourceTree = "<group>"; };
@@ -125,11 +108,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A11443311C5F27F400B75FB8 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				A11443321C5F280800B75FB8 /* TestUtil.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		A1F7B6071C488D3E00B9D505 = {
 			isa = PBXGroup;
 			children = (
 				A1F7B6121C488D3E00B9D505 /* JZAppFrameworkDemo */,
-				A1F7B6401C488D9100B9D505 /* JZAppOCFrameworkDemo */,
 				A1F7B6111C488D3E00B9D505 /* Products */,
 				83D5D03EF1B2F6AF232EC231 /* Pods */,
 				A25CFC275ACFB6FBFE533580 /* Frameworks */,
@@ -162,30 +152,6 @@
 				A1F7B61F1C488D3E00B9D505 /* Info.plist */,
 			);
 			path = JZAppFrameworkDemo;
-			sourceTree = "<group>";
-		};
-		A1F7B6401C488D9100B9D505 /* JZAppOCFrameworkDemo */ = {
-			isa = PBXGroup;
-			children = (
-				A1F7B6441C488D9100B9D505 /* AppDelegate.h */,
-				A1F7B6451C488D9100B9D505 /* AppDelegate.m */,
-				A1F7B6471C488D9100B9D505 /* ViewController.h */,
-				A1F7B6481C488D9100B9D505 /* ViewController.m */,
-				A1F7B64A1C488D9100B9D505 /* Main.storyboard */,
-				A1F7B64D1C488D9100B9D505 /* Assets.xcassets */,
-				A1F7B64F1C488D9100B9D505 /* LaunchScreen.storyboard */,
-				A1F7B6521C488D9100B9D505 /* Info.plist */,
-				A1F7B6411C488D9100B9D505 /* Supporting Files */,
-			);
-			path = JZAppOCFrameworkDemo;
-			sourceTree = "<group>";
-		};
-		A1F7B6411C488D9100B9D505 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A1F7B6421C488D9100B9D505 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		A1F7B6BA1C4C861400B9D505 /* Config */ = {
@@ -251,7 +217,7 @@
 		A1F7B6CF1C4C861400B9D505 /* Properties */ = {
 			isa = PBXGroup;
 			children = (
-				A1F7B6D01C4C861400B9D505 /* JZAppFrameworkDemo-Bridging-Header.h */,
+				A1F7B6D01C4C861400B9D505 /* Bridging-Header.h */,
 			);
 			path = Properties;
 			sourceTree = "<group>";
@@ -352,14 +318,13 @@
 		A1F7B6DE1C4C861400B9D505 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				A11443311C5F27F400B75FB8 /* Test */,
 				A1F7B6DF1C4C861400B9D505 /* Date&Time */,
 				A1F7B6E11C4C861400B9D505 /* Log */,
 				A1F7B6E31C4C861400B9D505 /* Mathematical */,
 				A1F7B6E51C4C861400B9D505 /* Network */,
 				A1F7B6E61C4C861400B9D505 /* Project */,
-				A1F7B6E81C4C861400B9D505 /* String */,
 				A1F7B6EA1C4C861400B9D505 /* System */,
-				A1F7B6EC1C4C861400B9D505 /* View */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -367,7 +332,7 @@
 		A1F7B6DF1C4C861400B9D505 /* Date&Time */ = {
 			isa = PBXGroup;
 			children = (
-				A1F7B6E01C4C861400B9D505 /* DateTool.swift */,
+				A1F7B6E01C4C861400B9D505 /* DateUtil.swift */,
 			);
 			path = "Date&Time";
 			sourceTree = "<group>";
@@ -384,7 +349,7 @@
 		A1F7B6E31C4C861400B9D505 /* Mathematical */ = {
 			isa = PBXGroup;
 			children = (
-				A1F7B6E41C4C861400B9D505 /* MathTool.swift */,
+				A1F7B6E41C4C861400B9D505 /* MathUtil.swift */,
 			);
 			path = Mathematical;
 			sourceTree = "<group>";
@@ -400,33 +365,17 @@
 		A1F7B6E61C4C861400B9D505 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				A1F7B6E71C4C861400B9D505 /* ProjectTool.swift */,
+				A1F7B6E71C4C861400B9D505 /* ProjectUtil.swift */,
 			);
 			path = Project;
-			sourceTree = "<group>";
-		};
-		A1F7B6E81C4C861400B9D505 /* String */ = {
-			isa = PBXGroup;
-			children = (
-				A1F7B6E91C4C861400B9D505 /* StringTool.swift */,
-			);
-			path = String;
 			sourceTree = "<group>";
 		};
 		A1F7B6EA1C4C861400B9D505 /* System */ = {
 			isa = PBXGroup;
 			children = (
-				A1F7B6EB1C4C861400B9D505 /* SystemTool.swift */,
+				A1F7B6EB1C4C861400B9D505 /* SystemUtil.swift */,
 			);
 			path = System;
-			sourceTree = "<group>";
-		};
-		A1F7B6EC1C4C861400B9D505 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A1F7B6ED1C4C861400B9D505 /* ViewTool.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		A1F7B7011C4C86D400B9D505 /* Protocol */ = {
@@ -568,9 +517,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F7B6511C488D9100B9D505 /* LaunchScreen.storyboard in Resources */,
-				A1F7B64E1C488D9100B9D505 /* Assets.xcassets in Resources */,
-				A1F7B64C1C488D9100B9D505 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,9 +575,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F7B6FF1C4C861400B9D505 /* SystemTool.swift in Sources */,
+				A1F7B6FF1C4C861400B9D505 /* SystemUtil.swift in Sources */,
 				A1F7B6F31C4C861400B9D505 /* FoundationExtension.swift in Sources */,
-				A1F7B6FC1C4C861400B9D505 /* MathTool.swift in Sources */,
+				A1F7B6FC1C4C861400B9D505 /* MathUtil.swift in Sources */,
 				A1F7B6EF1C4C861400B9D505 /* Enumerate.swift in Sources */,
 				A1F7B6FB1C4C861400B9D505 /* Log.swift in Sources */,
 				A1F7B6F81C4C861400B9D505 /* Localization.swift in Sources */,
@@ -640,16 +586,15 @@
 				A1F7B7051C4C878900B9D505 /* NetworkUtil.swift in Sources */,
 				A1F7B6161C488D3E00B9D505 /* ViewController.swift in Sources */,
 				A1F7B7071C4C970700B9D505 /* LogEnumeration.swift in Sources */,
-				A1F7B6FD1C4C861400B9D505 /* ProjectTool.swift in Sources */,
+				A1F7B6FD1C4C861400B9D505 /* ProjectUtil.swift in Sources */,
 				A1F7B6141C488D3E00B9D505 /* AppDelegate.swift in Sources */,
+				A11443331C5F280800B75FB8 /* TestUtil.swift in Sources */,
 				A1F7B6F11C4C861400B9D505 /* CoreAnimationExtension.swift in Sources */,
 				A1F7B6EE1C4C861400B9D505 /* Constants.swift in Sources */,
 				A1F7B6F21C4C861400B9D505 /* CoreGraphicsExtension.swift in Sources */,
-				A1F7B7001C4C861400B9D505 /* ViewTool.swift in Sources */,
 				A1F7B6F91C4C861400B9D505 /* SystemHelper.swift in Sources */,
-				A1F7B6FA1C4C861400B9D505 /* DateTool.swift in Sources */,
+				A1F7B6FA1C4C861400B9D505 /* DateUtil.swift in Sources */,
 				A1F7B6F61C4C861400B9D505 /* UIKitExtension.swift in Sources */,
-				A1F7B6FE1C4C861400B9D505 /* StringTool.swift in Sources */,
 				A1F7B7031C4C86D400B9D505 /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -665,9 +610,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F7B6491C488D9100B9D505 /* ViewController.m in Sources */,
-				A1F7B6461C488D9100B9D505 /* AppDelegate.m in Sources */,
-				A1F7B6431C488D9100B9D505 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,22 +628,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				A1F7B61D1C488D3E00B9D505 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		A1F7B64A1C488D9100B9D505 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1F7B64B1C488D9100B9D505 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A1F7B64F1C488D9100B9D505 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1F7B6501C488D9100B9D505 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -808,9 +734,10 @@
 				INFOPLIST_FILE = JZAppFrameworkDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG $(inherited) \"-D\" \"COCOAPODS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weSwift.JZAppFrameworkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "JZAppFrameworkDemo/Config/Properties/JZAppFrameworkDemo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PRODUCT_NAME)/Config/Properties/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -822,9 +749,10 @@
 				INFOPLIST_FILE = JZAppFrameworkDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG $(inherited) \"-D\" \"COCOAPODS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weSwift.JZAppFrameworkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "JZAppFrameworkDemo/Config/Properties/JZAppFrameworkDemo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PRODUCT_NAME)/Config/Properties/Bridging-Header.h";
 			};
 			name = Release;
 		};

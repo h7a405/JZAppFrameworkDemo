@@ -1,5 +1,5 @@
 //
-//  DateTool.swift
+//  DateUtil.swift
 //  XiaoFeiXia
 //
 //  Created by Jason.Chengzi on 16/01/08.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DateTool {
+class DateUtil {
     //MARK: 获取当前时间戳
     class func getCurrentTime() -> Int {
         let currentDate: NSDate = NSDate()
@@ -20,17 +20,17 @@ class DateTool {
     }
     //MARK: 时间戳和日期时间互转
     class func getDateFromTimeStamp(timeStamp: String) -> NSDate? {
-        return DateTool.getDateFormatter().dateFromString(timeStamp)
+        return DateUtil.getDateFormatter().dateFromString(timeStamp)
     }
     class func getDateStringFromTimeStamp(timeStamp: String) -> String? {
         if let doubleTime = Double(timeStamp) {
-            return DateTool.getDateFormatter().stringFromDate(NSDate(timeIntervalSince1970: doubleTime))
+            return DateUtil.getDateFormatter().stringFromDate(NSDate(timeIntervalSince1970: doubleTime))
         } else {
             return nil
         }
     }
     class func getDateStringFromDate(date: NSDate) -> String? {
-        return DateTool.getDateFormatter().stringFromDate(date)
+        return DateUtil.getDateFormatter().stringFromDate(date)
     }
     class func getDateFormatter() -> NSDateFormatter {
         let formatter: NSDateFormatter = NSDateFormatter()

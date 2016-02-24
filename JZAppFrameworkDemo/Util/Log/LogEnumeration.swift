@@ -14,6 +14,7 @@ enum LogType {
     case System
     case Network
     case Notification
+    case Image
     
     var toString: String {
         switch self {
@@ -26,6 +27,8 @@ enum LogType {
             return "----------      【网络】      ----------"
         case .Notification:
             return "----------      【通知】      ----------"
+        case .Image:
+            return "----------      【图片】      ----------"
         }
     }
 }

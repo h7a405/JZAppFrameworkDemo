@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MathTool {
+class MathUtil {
     
     static let PI: Float = 3.1415
     
@@ -63,19 +63,19 @@ class MathTool {
     
     //MARK: - Average
     class func avg(numbers: Int...) -> Int {
-        return Int(MathTool.sum(integer: numbers) / numbers.count)
+        return Int(MathUtil.sum(integer: numbers) / numbers.count)
     }
     
     class func avg(numbers: Float...) -> Float {
-        return Float(MathTool.sum(double: numbers) / Float(numbers.count))
+        return Float(MathUtil.sum(double: numbers) / Float(numbers.count))
     }
     
     class func avg(numbers: [Int]) -> Int {
-        return Int(MathTool.sum(integer: numbers) / numbers.count)
+        return Int(MathUtil.sum(integer: numbers) / numbers.count)
     }
     
     class func avg(numbers: [Float]) -> Float {
-        return Float(MathTool.sum(double: numbers) / Float(numbers.count))
+        return Float(MathUtil.sum(double: numbers) / Float(numbers.count))
     }
     
     //MARK: - Perimeter
@@ -92,10 +92,10 @@ class MathTool {
         return Float(side1 + side2 + side3)
     }
     class func perimeter(radius: Int) -> Float {
-        return Float(2) * MathTool.PI * Float(radius)
+        return Float(2) * MathUtil.PI * Float(radius)
     }
     class func perimeter(radius: Float) -> Float {
-        return Float(2) * MathTool.PI * radius
+        return Float(2) * MathUtil.PI * radius
     }
     
     //MARK: - Area
@@ -112,9 +112,9 @@ class MathTool {
         return Float(0.5 * (width * height))
     }
     class func area(radius: Int) -> Float {
-        return MathTool.PI * Float(radius * radius)
+        return MathUtil.PI * Float(radius * radius)
     }
     class func area(radius: Float) -> Float {
-        return MathTool.PI * (radius * radius)
+        return MathUtil.PI * (radius * radius)
     }
 }

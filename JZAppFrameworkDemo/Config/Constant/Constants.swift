@@ -66,12 +66,14 @@ let PROJECT_ENTRANCE_IS_SIGNUP_AVAILABLE: Bool = true
 
 //MARK: 视图 - View
 //项目主体颜色，默认 天蓝色 135, 206, 250
-let PROJECT_VIEW_SUBJECT_COLOR: UIColor = UIColor.RGB(red: 135, green: 206, blue: 250)
-//项目导航条颜色，默认主体颜色相同
+let PROJECT_VIEW_SUBJECT_COLOR: UIColor = UIColor.colorWithRed(135, green: 206, blue: 250)
+//项目导航条颜色，默认主题颜色相同
 let PROJECT_VIEW_NAVIGATION_BAR_COLOR: UIColor = PROJECT_VIEW_SUBJECT_COLOR
 
 //项目导航字符串大小，默认15
 let PROJECT_VIEW_NAVIGATOIN_BAR_FONT_SIZE: Float = 15
+//项目导航按钮字符大小，默认13
+let PROJECT_VIEW_NAVIGATION_BAR_BUTTON_FONT_SIZE: Float = 13
 //项目主要字符串大小，默认14
 let PROJECT_VIEW_MAIN_FONT_SIZE: Float = 14
 //项目次要字符串大小，默认13
@@ -81,6 +83,8 @@ let PROJECT_VIEW_DESCRIPTION_FONT_SIZE: Float = 12
 
 //项目导航字符串字体，默认系统字体
 let PROJECT_VIEW_NAVIGATION_BAR_FONT: UIFont = UIFont.systemFontOfSize(CGFloat(PROJECT_VIEW_NAVIGATOIN_BAR_FONT_SIZE))
+//项目导航按钮字符字体，默认系统字体
+let PROJECT_VIEW_NAVIGATION_BAR_BUTTON_FONT: UIFont = UIFont.systemFontOfSize(CGFloat(PROJECT_VIEW_NAVIGATION_BAR_BUTTON_FONT_SIZE))
 //项目主要字符串字体，默认系统字体
 let PROJECT_VIEW_MAIN_FONT: UIFont = UIFont.systemFontOfSize(CGFloat(PROJECT_VIEW_MAIN_FONT_SIZE))
 //项目次要字符串字体，默认系统字体
@@ -90,6 +94,8 @@ let PROJECT_VIEW_DESCRIPTION_FONT: UIFont = UIFont.systemFontOfSize(CGFloat(PROJ
 
 //项目导航字符串字体颜色，默认白色
 let PROJECT_VIEW_NAVIGATION_BAR_TEXT_COLOR: UIColor = UIColor.whiteColor()
+//项目导航按钮字符字体颜色，默认白色
+let PROJECT_VIEW_NAVIGATION_BAR_BUTTON_TEXT_COLOR: UIColor = UIColor.whiteColor()
 //项目主要字符串字体颜色，默认黑色
 let PROJECT_VIEW_MAIN_TEXT_COLOR: UIColor = UIColor.blackColor()
 //项目次要字符串字体颜色，默认灰色

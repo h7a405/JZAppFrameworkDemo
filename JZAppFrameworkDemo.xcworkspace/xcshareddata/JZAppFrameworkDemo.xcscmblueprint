@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "07DEEBD50B4FFBE32C9CF646F5F1845A63FB5494",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BC8D3481116427CC3A76C059A37FE1E8E6AC8FC1" : 0,
+    "07DEEBD50B4FFBE32C9CF646F5F1845A63FB5494" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0DB45986-64D5-4337-89BD-3C4BCBC368B3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BC8D3481116427CC3A76C059A37FE1E8E6AC8FC1" : "",
+    "07DEEBD50B4FFBE32C9CF646F5F1845A63FB5494" : "JZAppFrameworkDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JZAppFrameworkDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JZAppFrameworkDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/h7a405\/JZAppFrameworkDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07DEEBD50B4FFBE32C9CF646F5F1845A63FB5494"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JasonRayleigh\/JRLibrary.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC8D3481116427CC3A76C059A37FE1E8E6AC8FC1"
+    }
+  ]
+}

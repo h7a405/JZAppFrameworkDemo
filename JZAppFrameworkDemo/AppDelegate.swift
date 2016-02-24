@@ -16,30 +16,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
-        //初始化window
-        self.window = UIWindow(frame: CGRect.screenBounds)
-        //设置window背景颜色，默认白色
-        self.window!.backgroundColor = UIColor.whiteColor()
-        
-        //初始化根视图，适配iOS9
-        let rootViewController: ViewController = ViewController()
-        //设置根视图
-        self.window!.rootViewController = rootViewController
-        //显示window
-        self.window!.makeKeyAndVisible()
-        
+//        
+//        //初始化window
+//        self.window = UIWindow(frame: CGRect.screenBounds)
+//        //设置window背景颜色，默认白色
+//        self.window!.backgroundColor = UIColor.whiteColor()
+//        
+//        //初始化根视图，适配iOS9
+//        let rootViewController: ViewController = ViewController()
+//        //设置根视图
+//        self.window!.rootViewController = rootViewController
+//        //显示window
+//        self.window!.makeKeyAndVisible()
+//        
         //更改navigation bar的着色颜色
         UINavigationBar.appearance().barTintColor = PROJECT_VIEW_NAVIGATION_BAR_COLOR
         //关闭通透
         UINavigationBar.appearance().translucent = false
         //更改状态栏文字颜色
-        UINavigationBar.appearance().barStyle = UIBarStyle.BlackTranslucent
+        UINavigationBar.appearance().barStyle = .BlackTranslucent
         //更改title的颜色
-        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: PROJECT_VIEW_NAVIGATION_BAR_TEXT_COLOR]
-        //更改内容着色颜色
-        UINavigationBar.appearance().tintColor = PROJECT_VIEW_NAVIGATION_BAR_TEXT_COLOR
+        UINavigationBar.appearance().titleTextAttributes = [
+            NSFontAttributeName: PROJECT_VIEW_NAVIGATION_BAR_FONT,
+            NSForegroundColorAttributeName: PROJECT_VIEW_NAVIGATION_BAR_TEXT_COLOR
+        ]
         
+        if #available(iOS 9.0, *) {
+            let barButtonItemAppearence = UIBarButtonItem.appearanceWhenContainedInInstancesOfClasses([UINavigationBar.self])
+            barButtonItemAppearence.setTitleTextAttributes([
+                NSFontAttributeName : PROJECT_VIEW_NAVIGATION_BAR_BUTTON_FONT,
+                NSForegroundColorAttributeName : PROJECT_VIEW_NAVIGATION_BAR_BUTTON_TEXT_COLOR
+                ], forState: .Normal)
+        } else {
+            // Fallback on earlier versions
+        }
         return true
     }
 

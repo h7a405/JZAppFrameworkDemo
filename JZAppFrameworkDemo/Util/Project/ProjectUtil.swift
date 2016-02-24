@@ -28,7 +28,7 @@ enum Project {
     }
 }
 
-class ProjectTool {
+class ProjectUtil {
     //MARK: - 设置是否首次启动
     class func setToFirstTimeLaunched(isFirstTime: Bool) {
         let userDefault = NSUserDefaults.standardUserDefaults()
@@ -91,8 +91,8 @@ class ProjectTool {
 //        if isToSignOut {
 //            EaseMobHandler.sharedHandler().handleEaseMobLogout()
 //            SDImageCache.sharedImageCache().clearDisk()
-//            ProjectTool.setToAlreadySignedIn(false)
-//            ProjectTool.setToSaveUsername(isToSave: false, username: UserModel.sharedInstance.username, andPassword: "", andToken: nil, andUserID: nil)
+//            ProjectUtil.setToAlreadySignedIn(false)
+//            ProjectUtil.setToSaveUsername(isToSave: false, username: UserModel.sharedInstance.username, andPassword: "", andToken: nil, andUserID: nil)
 //            UserModel.sharedUser().deleteUser()
 //            
 //            let signInViewController: SignInViewController = SignInViewController()

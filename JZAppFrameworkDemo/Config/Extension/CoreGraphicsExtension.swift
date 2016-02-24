@@ -9,7 +9,13 @@
 import UIKit
 
 extension CGRect {
-    static var screenBounds: CGRect {
+    static var screenBounds : CGRect {
         return UIScreen.mainScreen().bounds
+    }
+    static var applicationBounds : CGRect {
+        return UIScreen.mainScreen().applicationFrame
+    }
+    static var statusBarBounds : CGRect {
+        return UIApplication.sharedApplication().statusBarFrame
     }
 }

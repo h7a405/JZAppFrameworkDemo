@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum System_Version {
+enum SystemVersion {
     case iOS_5
     case iOS_6
     case iOS_7
@@ -37,7 +37,7 @@ enum System_Version {
         }
     }
     
-    static func getVersionWithFloatValue(floatValue: Float) -> System_Version {
+    static func getVersionWithFloatValue(floatValue: Float) -> SystemVersion {
         if floatValue == 5.0 {
             return self.iOS_5
         } else if floatValue == 6.0 {
@@ -54,70 +54,70 @@ enum System_Version {
     }
     
     static var is_iOS_5: Bool {
-        if System_Version.iOSVersion < self.iOS_6.floatValue && System_Version.iOSVersion >= self.iOS_5.floatValue {
+        if SystemVersion.iOSVersion < self.iOS_6.floatValue && SystemVersion.iOSVersion >= self.iOS_5.floatValue {
             return true
         } else {
             return false
         }
     }
     static var is_iOS_6: Bool {
-        if System_Version.iOSVersion < self.iOS_7.floatValue && System_Version.iOSVersion >= self.iOS_6.floatValue {
+        if SystemVersion.iOSVersion < self.iOS_7.floatValue && SystemVersion.iOSVersion >= self.iOS_6.floatValue {
             return true
         } else {
             return false
         }
     }
     static var is_iOS_7: Bool {
-        if System_Version.iOSVersion < self.iOS_8.floatValue && System_Version.iOSVersion >= self.iOS_7.floatValue {
+        if SystemVersion.iOSVersion < self.iOS_8.floatValue && SystemVersion.iOSVersion >= self.iOS_7.floatValue {
             return true
         } else {
             return false
         }
     }
     static var is_iOS_8: Bool {
-        if System_Version.iOSVersion < self.iOS_9.floatValue && System_Version.iOSVersion >= self.iOS_8.floatValue {
+        if SystemVersion.iOSVersion < self.iOS_9.floatValue && SystemVersion.iOSVersion >= self.iOS_8.floatValue {
             return true
         } else {
             return false
         }
     }
     static var is_iOS_9: Bool {
-        if System_Version.iOSVersion >= self.iOS_9.floatValue {
+        if SystemVersion.iOSVersion >= self.iOS_9.floatValue {
             return true
         } else {
             return false
         }
     }
     static var is_iOS_5_later: Bool {
-        if System_Version.iOSVersion >= self.iOS_5.floatValue {
+        if SystemVersion.iOSVersion >= self.iOS_5.floatValue {
             return true
         } else {
             return false
         }
     }
     static var is_iOS_6_later: Bool {
-        if System_Version.iOSVersion >= self.iOS_6.floatValue {
+        if SystemVersion.iOSVersion >= self.iOS_6.floatValue {
             return true
         } else {
             return false
         }
     }
     static var is_iOS_7_later: Bool {
-        if System_Version.iOSVersion >= self.iOS_7.floatValue {
+        if SystemVersion.iOSVersion >= self.iOS_7.floatValue {
             return true
         } else {
             return false
         }
     }
     static var is_iOS_8_later: Bool {
-        if System_Version.iOSVersion >= self.iOS_8.floatValue {
+        if SystemVersion.iOSVersion >= self.iOS_8.floatValue {
             return true
         } else {
             return false
         }
     }
     static var is_iOS_9_later: Bool {
-        if System_Version.iOSVersion >= self.iOS_9.floatValue {
+        if SystemVersion.iOSVersion >= self.iOS_9.floatValue {
             return true
         } else {
             return false
@@ -125,7 +125,11 @@ enum System_Version {
     }
 }
 
-class SystemTool {
+class SystemUtil {
+    //MARK: 获取APP版本号
+    class var appVersion : String {
+        return NSBundle.mainBundle().infoDictionary?["CFBundleShortVersionString"] as! String
+    }
     //MARK: - Open URL 集成
     class func dial(toPhoneNumber phone: String) {
         let url = NSURL(string: "tel://\(phone)")
@@ -146,5 +150,19 @@ class SystemTool {
         let url = NSURL(string: "mailto:\(theAddress)")
         Log.VLog("\(url ?? "")")
         UIApplication.sharedApplication().openURL(url!)
+    }
+    
+    //相机和闪光灯
+    static var isFrontCameraAvailable: Bool {
+        return UIImagePickerController.isCameraDeviceAvailable(.Front)
+    }
+    static var isRearCameraAvailable: Bool {
+        return UIImagePickerController.isCameraDeviceAvailable(.Rear)
+    }
+    static var isFrontFlashAvailable: Bool {
+        return UIImagePickerController.isFlashAvailableForCameraDevice(.Front)
+    }
+    static var isRearFlashAvailable: Bool {
+        return UIImagePickerController.isFlashAvailableForCameraDevice(.Rear)
     }
 }
