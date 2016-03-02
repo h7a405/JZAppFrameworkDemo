@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A11443331C5F280800B75FB8 /* TestUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11443321C5F280800B75FB8 /* TestUtil.swift */; };
+		A15D84D41C843CA20001AE94 /* TimerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15D84D31C843CA20001AE94 /* TimerHelper.swift */; };
 		A1F7B6141C488D3E00B9D505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6131C488D3E00B9D505 /* AppDelegate.swift */; };
 		A1F7B6161C488D3E00B9D505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6151C488D3E00B9D505 /* ViewController.swift */; };
 		A1F7B6191C488D3E00B9D505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F7B6171C488D3E00B9D505 /* Main.storyboard */; };
@@ -21,7 +22,7 @@
 		A1F7B6F41C4C861400B9D505 /* OtherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6C61C4C861400B9D505 /* OtherExtension.swift */; };
 		A1F7B6F51C4C861400B9D505 /* SwiftExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6C71C4C861400B9D505 /* SwiftExtension.swift */; };
 		A1F7B6F61C4C861400B9D505 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6C81C4C861400B9D505 /* UIKitExtension.swift */; };
-		A1F7B6F71C4C861400B9D505 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1F7B6CA1C4C861400B9D505 /* Localization.strings */; };
+		A1F7B6F71C4C861400B9D505 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1F7B6CA1C4C861400B9D505 /* Localizable.strings */; };
 		A1F7B6F81C4C861400B9D505 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6CC1C4C861400B9D505 /* Localization.swift */; };
 		A1F7B6F91C4C861400B9D505 /* SystemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6D51C4C861400B9D505 /* SystemHelper.swift */; };
 		A1F7B6FA1C4C861400B9D505 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7B6E01C4C861400B9D505 /* DateUtil.swift */; };
@@ -39,6 +40,7 @@
 		99E950E967954EE3B24FBE71 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9A01A83138C80F0FA50D0E95 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A11443321C5F280800B75FB8 /* TestUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtil.swift; sourceTree = "<group>"; };
+		A15D84D31C843CA20001AE94 /* TimerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerHelper.swift; sourceTree = "<group>"; };
 		A1F7B6101C488D3E00B9D505 /* JZAppFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZAppFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F7B6131C488D3E00B9D505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1F7B6151C488D3E00B9D505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +58,10 @@
 		A1F7B6C61C4C861400B9D505 /* OtherExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherExtension.swift; sourceTree = "<group>"; };
 		A1F7B6C71C4C861400B9D505 /* SwiftExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtension.swift; sourceTree = "<group>"; };
 		A1F7B6C81C4C861400B9D505 /* UIKitExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
-		A1F7B6CB1C4C861400B9D505 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
+		A1F7B6CB1C4C861400B9D505 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A1F7B6CC1C4C861400B9D505 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
-		A1F7B6CD1C4C861400B9D505 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localization.strings"; sourceTree = "<group>"; };
-		A1F7B6CE1C4C861400B9D505 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localization.strings"; sourceTree = "<group>"; };
+		A1F7B6CD1C4C861400B9D505 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A1F7B6CE1C4C861400B9D505 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		A1F7B6D01C4C861400B9D505 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		A1F7B6D51C4C861400B9D505 /* SystemHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemHelper.swift; sourceTree = "<group>"; };
 		A1F7B6E01C4C861400B9D505 /* DateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
@@ -208,7 +210,7 @@
 		A1F7B6C91C4C861400B9D505 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
-				A1F7B6CA1C4C861400B9D505 /* Localization.strings */,
+				A1F7B6CA1C4C861400B9D505 /* Localizable.strings */,
 				A1F7B6CC1C4C861400B9D505 /* Localization.swift */,
 			);
 			path = Localization;
@@ -249,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				A1F7B6D51C4C861400B9D505 /* SystemHelper.swift */,
+				A15D84D31C843CA20001AE94 /* TimerHelper.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -500,7 +503,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F7B61E1C488D3E00B9D505 /* LaunchScreen.storyboard in Resources */,
-				A1F7B6F71C4C861400B9D505 /* Localization.strings in Resources */,
+				A1F7B6F71C4C861400B9D505 /* Localizable.strings in Resources */,
 				A1F7B61B1C488D3E00B9D505 /* Assets.xcassets in Resources */,
 				A1F7B6191C488D3E00B9D505 /* Main.storyboard in Resources */,
 			);
@@ -596,6 +599,7 @@
 				A1F7B6FA1C4C861400B9D505 /* DateUtil.swift in Sources */,
 				A1F7B6F61C4C861400B9D505 /* UIKitExtension.swift in Sources */,
 				A1F7B7031C4C86D400B9D505 /* Protocol.swift in Sources */,
+				A15D84D41C843CA20001AE94 /* TimerHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,14 +636,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		A1F7B6CA1C4C861400B9D505 /* Localization.strings */ = {
+		A1F7B6CA1C4C861400B9D505 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A1F7B6CB1C4C861400B9D505 /* en */,
 				A1F7B6CD1C4C861400B9D505 /* zh-Hans */,
 				A1F7B6CE1C4C861400B9D505 /* zh-Hant */,
 			);
-			name = Localization.strings;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
